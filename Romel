@@ -1,0 +1,32 @@
+#include <iostream>
+#include <conio.h>
+#include <string.h>
+#include <sstream>
+using namespace std;
+void m(string s);
+
+int main()
+{
+	string s;
+	m(s);
+	
+	return 0;
+	_getch();
+
+
+
+}
+void m(string s) {
+
+	string x = "anvar arefi";
+	char y = ' ';
+
+	stringstream chek1(x);
+	string lk;
+	while (getline(chek1, lk, y))
+	{
+
+		cout << lk << endl;
+
+	}
+ }
